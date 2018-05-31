@@ -23,6 +23,7 @@ def index(request):
     }
     # return HttpResponse(template.render(context, request))
     return render(request, 'polls/index.html', context)
+    # return render(request, 'admin/base_site.html')
 
 # Leave the rest of the views (detail, results, vote) unchanged
 
